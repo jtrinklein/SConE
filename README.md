@@ -1,6 +1,8 @@
 SConE
 =====
 
+[![Join the chat at https://gitter.im/jtrinklein/SConE](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jtrinklein/SConE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **S**NES **Con**troller **E**mulator using Arduino (Uno)
 
 ## Overview
