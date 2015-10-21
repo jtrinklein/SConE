@@ -1,0 +1,26 @@
+given:
+    latch is normally LOW
+    clock is normally HIGH
+    button pressed     -> LOW signal on data pin
+    button not pressed -> HIGH signal on data pin
+    unpressed button results in HIGH signal on data pin
+
+loop forever:
+    if latch is LOW
+        don't continue
+
+    store state of input buttons (12 joypad buttons)
+
+    wait until: latch is LOW
+
+    for each button state
+        if state is pressed
+            set data pin to LOW
+        else
+            set data pin to HIGH
+
+        wait until: clock is LOW
+        wait until: clock is HIGH
+
+    set data pin HIGH
+    
